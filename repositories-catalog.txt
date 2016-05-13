@@ -1,6 +1,7 @@
 Organizations:
 - Fashion Army
 - Kimonkey
+  + documents
 - Kimonkey-Support
 - Kimonkey-Microservices
 - Kimonkey-Databases
