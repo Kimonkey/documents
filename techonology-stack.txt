@@ -1,0 +1,61 @@
+[1]Web Application:
+  - basic: html5, javascript, css
+  - frameworks: angularjs, bootstrap, stylus, jquery
+  - package managers: bower, npm
+  - automating: gulp
+  - editor: atom
+  - browser: chrome, firefox
+  - server: nodejs (or nginx)
+
+[2]Mobile Applications:
+  - basic: html5, javascript, css
+  - frameworks: ionic, cordova
+  - package managers: npm, ionic
+  - automating: ionic
+  - editor: atom
+  - browser: chrome
+  - devices: android tablet, mobile phone
+  - server: nodejs (or nginx)
+
+[3]Microservices:
+  - basic: java, (gradle: groovy)
+  - frameworks: spring-boot, spring-cloud, spring-data, junit, mockito, hateoas
+  - package managers: gradle
+  - editor: STS, Emacs
+  - server: tomcat,(undertow)
+
+[4]Support:
+  - basic: java, (gradle: groovy)
+  - frameworks: spring-boot, spring-cloud, spring-data, junit, mockito
+  - package managers: gradle
+  - editor: STS, Emacs
+  - message brokers: rabbitmq(erlang)
+  - server: tomcat,(undertow)
+
+[6]DevOps:
+  - continious integration: jenkins, artifactory
+  - source management: git
+  - monitoring: jamon
+  - quality: sonarqube, findbugs
+  - dashboards: hygieia
+  - performance measure: jmeter(evaluate)
+  - virtual services: mock-server(evaluate)
+  - Issue Tracking: Taiga.io, Evernote
+  - logs: graylogs
+  - rest: swager
+
+[7]deployment:
+  - virtualization: docker, docker-compose
+  - management: kubernetes
+  - paas: AWS, DigitalOcean, Heroku
+
+[8]Documents:
+  - Editor: Emacs
+
+[9]Databases:
+  - Open source: mongodb, postgresql, neo4j
+
+[10]Management:
+  - framework: scrum
+
+

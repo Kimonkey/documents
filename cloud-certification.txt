@@ -1,0 +1,90 @@
+[1]Visibility
+  - Tools that allow us to see and react when failures occurs, such as
+    monitors, alerts, metrics, dashboard, etc.
+    - Log Streams = Centralized log service.
+    
+    - Instrumentation(Network & Transaction Traceability)
+    
+    - Metrics (Compute, Network, Storage, App)
+    
+
+[2]Survive
+  - Promote fault tolerance + Environment Agnostic:
+    - Circuit Breaker.
+
+    - Dynamic filters.
+
+    - Environment Provisioning
+
+    - Fast Startup
+
+[3]Maintain
+   - Configuration Service
+   - API Managmente/Api first
+     - API Maturity model:
+       - Level 0: HTTP is used as a transport system for remote interactions.
+       	       	  no Real APIs are supported.
+	 Level 1: Published and authenticated, Apis documented.
+	 Level 2: HTTP + verbs
+	 Level 3: HateOAS + Status code.
+	 Level 4: metrics collected
+	 Level 5: 100% compliance
+   - microservices
+   - Decomposing Data
+
+[4]Adapt
+   - Every monkeys/ Simian Army.
+
+[5] Extensible
+
+PIPELINE
+=============================================================
+[1] Commit Stage
+  - Issue Tracking
+  - Virtualize Services
+  - Publish API
+  - IDE
+  - SCM
+  - Artifactory
+  - Build
+  - Code Quality
+  - Unit Test
+[2] Virtualization Testing Stage
+  - SCM
+  - Provision Environment
+  - DB Automation
+  - Configuration Automation
+  - Deploy
+  - Build Verification Test
+  - Test Data Seeding
+  - Integration Test
+  - API Test
+  - Instrumentation Test
+  - Preliminary Load Test
+[3] Automation Testing Stage
+  - Test Data Seeding 
+  - Integration Test 
+  - API Test 
+  - GUI Test 
+  - Acceptance Test 
+  - Static Security Scan (Nightly) 
+  - Full Load Test (Nightly) 
+[4] Release Stage
+  - VCOP Automation 
+  - Blue Green 
+  - Feature Toggle 
+  - Canary Release 
+  - A/B Testing
+  - App Backward Compatibility with DB Schema 
+  - Proactive Monitoring 
+
+[5] Environment DB Preparation
+  - Setup Database 
+  - DB Automation 
+  - Data Masking 
+
+
+
+LINKS TO READ:
+===================================================
+https://www.nginx.com/blog/building-microservices-using-an-api-gateway/

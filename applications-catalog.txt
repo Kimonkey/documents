@@ -1,0 +1,30 @@
+[1]Web
+  - Fashion Army: is the general project webpage, that list the catalog  of applications
+                  that are part of this army, and information about the company and other products.
+
+  - Kimonki
+
+[2]Mobile Application:
+  - Kimonki
+
+[3]Microservices:
+  - Core:
+    - clothing
+    - user
+    - blog
+    - closet
+  - Composite:
+    - styling
+  - Api:
+    - *
+
+[4]Support:
+  - oauth: oauth-spring
+  - configuration server: config
+  - service registry: eureka
+  - edge server: zuul
+  - load balancer: ribbon
+  - circuit breaker: hystrix
+  - monitoring: hystrix dashboard and turbine collector
+  - ELK: Elastic search, logstash, kibana
+  

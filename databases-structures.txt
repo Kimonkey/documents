@@ -1,0 +1,7 @@
+[1]Clothing Microservice:
+ - schemas:
+   #collections
+   #clothes
+   #outfits
+   #styling
+   #users

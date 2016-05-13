@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+KIMONKI API CATALOG - FASHION ARMY 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+## CLOTHES
+------------------------------------------------------------------------------------------
+METHOD		PATH			DESCRIPTION
+------------------------------------------------------------------------------------------
+GET		/clothes		list clothes in catalog.
+GET		/clothes/[id]		show detail of a given clothe.
+POST		/clothes		create a new clothe in catalog.
+PUT		/clothes/[id]		update a given clothe.
+DEL		/clothes/[id]		delete a given clothe.
+
+## COLLECTIONS
+------------------------------------------------------------------------------------------
+METHOD		PATH		DESCRIPTION
+-------------------------------------------------------------------------------------------
+GET		/collections
+GET		/collections/[id]
+POST		/collections
+PUT		/collections/[id]
+DEL		/collections/[id]
+
+## OUTFITS
+------------------------------------------------------------------------------------------
+METHOD		PATH		DESCRIPTION
+------------------------------------------------------------------------------------------
+GET		/outfits
+GET		/outfits/[id]
+POST		/outfits
+PUT		/outfits/[id]
+DEL		/outfits/[id]
+
+## STYLING SERVICE
+------------------------------------------------------------------------------------------
+METHOD		PATH		DESCRIPTION
+------------------------------------------------------------------------------------------
+GET		/styling
+GET		/styling/[id]
+POST		/styling
+PUT		/styling/[id]
+DEL		/styling/[id]
+
+
+## USERS
+------------------------------------------------------------------------------------------
+METHOD		PATH		DESCRIPTION
+------------------------------------------------------------------------------------------
+GET		/users
+GET		/users/[id]
+POST		/users
+PUT		/users/[id]
+DEL		/users/[id]
+

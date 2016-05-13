@@ -1,0 +1,16 @@
+Organizations:
+- Fashion Army
+- Kimonkey
+- Kimonkey-Support
+- Kimonkey-Microservices
+- Kimonkey-Databases
+- Kimonkey-Applications
+- Kimonkey-DevOps
+
+Teams:
+- Developers: all developers will have write permissions in the repositories.
+
+
+
+Developers:
+- Erikson Murrugarra(eriksonmurrugarra.dev@gmail.com)
