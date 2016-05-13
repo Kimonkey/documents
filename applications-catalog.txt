@@ -9,14 +9,12 @@
 
 [3]Microservices:
   - Core:
-    - clothing
-    - user
+    - clothes
+    - collections
+    - users
     - blog
+    - comments
     - closet
-  - Composite:
-    - styling
-  - Api:
-    - *
 
 [4]Support:
   - oauth: oauth-spring
