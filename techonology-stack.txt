@@ -56,6 +56,6 @@
   - Open source: mongodb, postgresql, neo4j
 
 [10]Management:
-  - framework: scrum
+  - framework: scrum, agile
 
 
